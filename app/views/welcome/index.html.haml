@@ -1,1 +1,32 @@
-%h1 This is the welcome placeholder
+#banner
+  .banner_content
+    %h1 MobiNote
+    %p The online/mobile notebook.  Forgotten ideas are in the past.
+    %button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "The best notebook app.  Ever"
+    %p.name - Ray Climie
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p Take and refer to your notes.  No matter where you are.
+      .callout
+        %h2 Privacy
+        %p Your notes.  Your eyes only.
+      .callout
+        %h2 Easy
+        %p Probably the easiest notes app you'll ever use.
+
+#bottom_cta
+  .wrapper
+    %h2 Really!
+    %p Sign up!  There's no way you'll regret it!
+    %button= link_to "Click Here!", new_user_registration_path
+
+%footer
+  %p &copy; Ray Climie
