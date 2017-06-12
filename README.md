@@ -1,24 +1,10 @@
-# README
+# MobiNote
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple note take app.
 
-Things you may want to cover:
+For now, this is a text only notebook app.
 
-* Ruby version
+Things to do/add:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- add media as well as text
+- work on some styling
